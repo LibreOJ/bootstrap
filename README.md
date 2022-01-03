@@ -1,9 +1,11 @@
 # LibreOJ Bootstrap
 
-Serve the first HTML page of loj.ac, with CDNs and regional configurations, on Azure Function App and Cloudflare Workers.
+Serve the first HTML page of [`loj.ac`](https://loj.ac), with CDNs, regional configurations and service worker, on Azure Function App, Cloudflare Workers and Aliyun OSS.
 
-* `libreoj-bootstrap-core`: The (shared) core code of serving the HTML page.
-* `libreoj-bootstrap-azure`: The Azure Function App project.
-* `libreoj-bootstrap-cloudflare`: The Cloudflare Workers project.
+* `core`: The (shared) core code of serving the HTML page with serverless platform.
+* `azure`: The Azure Function App project.
+* `cloudflare`: The Cloudflare Workers project.
+* `aliyun-oss`: Serve with Aliyun OSS statically files for China mainland users.
+* `service-worker`: The Service Worker running in frontend.
 
 See [Actions](https://github.com/LibreOJ/bootstrap/actions) for deployment info.
